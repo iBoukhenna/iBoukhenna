@@ -192,14 +192,14 @@ Professionnel de l'ingénierie avec un diplôme de Master Ingénierie du Logicie
 \cvitem{}{- Élaborer les indicateurs de pilotage des solutions.}
 \cvitem{}{- Coacher et animer les équipes et évaluer les performances individuelles et collectives.}
 \cvitem{}{- Élaborer les procédures internes de gestion des projets.}
-\cvitem{}{- Maintenance de la plateforme du développement.}
+\cvitem{}{- Maintenir la plateforme du développement.}
 \cvitem{}{\textbf{Technologies et outils utilisés:}}
 \cvitem{}{JAVA 8, JAVA EE, Restful, Spring boot, PrimeFaces, JavaFx, Hibernate, Angular 8, Docker, Android, Mysql, Oracle, RFID, Proxmox, Linux, NGINX, Tomcat, Jira, Confluence, Git, Bitbucket, Sourcetree, Birt, JasperReport, Postman, Selenium, JMeter, JUnit.}
 \cvitem{}{\textbf{Projets:}}
 \cvitem{}{- QIMMOS : Développement et mise en place d'une solution de gestion du patrimoine de l’entreprise basée sur les technologies Code-barre et RFID. Cette dernière est composée de quatre modules qui assurent la Gestion des Immobilisations, la Gestion des Inventaires, la Gestion du parc roulant de l'entreprise et le suivi des opérations de maintenances. La solution est composée d'une application web et une application mobile pour assurer les opérations d'inventaires et les opérations de recensements.}
 \cvitem{}{- MIP : Mise en place d’une plateforme numérique pour le suivi des produits pharmaceutiques, suivi des programmes d'importation et de production et leurs niveaux d'exécution, prévenir et éviter les ruptures, calcule du besoin nataional d'importation.}
 \cvitem{}{- MJS : Mise en place d’une plateforme numérique d'inscription pour l'élection du Conseil Suprême de la Jeunesse.}
-\cvitem{}{- BUAA : Mise en place d’une plateforme numérique pour la gestion des cartes orange (extension de la garantie responsabilité civile automobile aux véhicules immatriculés en Algérie lors des déplacements dans les pays arabes)}
+\cvitem{}{- BUAA : Mise en place d’une plateforme numérique pour la gestion des cartes orange (extension de la garantie responsabilité civile automobile aux véhicules immatriculés en Algérie lors des déplacements dans les pays arabes).}
 \cvitem{}{- SMITO : Solution pour la lecture électronique des cartes biométriques sur deux étapes, OCR pour la lecture du MRZ et lecture NFC des données par la suite un décodage pour la récupération des informations.}
 
 
@@ -314,11 +314,11 @@ Professionnel de l'ingénierie avec un diplôme de Master Ingénierie du Logicie
 \section{Compétences Techniques}
 \renewcommand{\listitemsymbol}{-~}
 {\small
-\cvitem{Système d’exploitation}{Linux, Windows}
-\cvitem{Développement}{JAVA, JAVA EE, Spring boot, Hibernate, Primefaces, RESTful, SOAP, HTML, Javascript, CSS, XML, JSON, Angular}
+\cvitem{Développement Web}{JAVA, JAVA EE, Spring boot, Hibernate, Primefaces, RESTful, SOAP, HTML, Javascript, CSS, XML, JSON, Angular}
 \cvitem{Développement Mobile}{Android SDK, AndroidX, Xamarin, Retrofit, MVVM}
 \cvitem{Bases de données}{MySQL, SQL Server, Postgresql}
-\cvitem{DevOps}{Docker, Packer, Kubernetes, Terraform, Git, SVN, Jira, Jenkins}
+\cvitem{Outils DevOps}{Docker, Packer, Kubernetes, Terraform, Git, SVN, Jira, Jenkins}
+\cvitem{Système d’exploitation}{Linux, Windows}
 \cvitem{Outils}{Android Studio, IntelliJ, Postman, JMeter, Selenium, JUnit, Birt, JasperReport, WinScp, Figma, AdobeXD}
 \par}
 
