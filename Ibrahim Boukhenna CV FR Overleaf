@@ -183,11 +183,13 @@ Professionnel de l'ingénierie avec un diplôme de Master Ingénierie du Logicie
 
 \section{Expérience professionnelle}
 
-\cventry{Feb'2017--Aujourd’hui}{Chef d'équipe étude et développement}{}{}{}{SPINTECHS (Bir Khadem), Alger, Algérie}  % Arguments not required can be left empty
+\cventry{Feb'2017--Aujourd’hui}{Chef d'équipe recherche et développement}{}{}{}{SPINTECHS (Bir Khadem), Alger, Algérie}  % Arguments not required can be left empty
 \cvitem{}{\textbf{Missions:}}
 \cvitem{}{- Elaborer les spécifications techniques des solutions développées par l'entreprise.}
 \cvitem{}{- Pilotage du développement, maintenance et suivi de l’évolution des solutions réalisées.}
 \cvitem{}{- Définition de l’architecture et assurer la qualité du code.}
+\cvitem{}{- Conception et Modélisation des modules à développer.}
+\cvitem{}{- Développement dans un souci de qualité et respect des délais.}
 \cvitem{}{- Définir les plans de déploiement et leurs mise en œuvre.}
 \cvitem{}{- Élaborer les indicateurs de pilotage des solutions.}
 \cvitem{}{- Coacher et animer les équipes et évaluer les performances individuelles et collectives.}
