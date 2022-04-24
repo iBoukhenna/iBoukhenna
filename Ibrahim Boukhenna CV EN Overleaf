@@ -182,11 +182,13 @@ Engineering professional with a master's degree in Software Engineering from the
 
 \section{Expérience professionnelle}
 
-\cventry{Feb'2017--Present}{Study and development team leader}{}{}{}{SPINTECHS (Bir Khadem), Algiers, Algeria}  % Arguments not required can be left empty
+\cventry{Feb'2017--Present}{Research and development team leader}{}{}{}{SPINTECHS (Bir Khadem), Algiers, Algeria}  % Arguments not required can be left empty
 \cvitem{}{\textbf{Missions:}}
 \cvitem{}{- Develop the technical specifications of the solutions developed by the company.}
 \cvitem{}{- Management of the development, maintenance and monitoring of the evolution of the solutions produced.}
 \cvitem{}{- Define the architecture and ensure the quality of the code.}
+\cvitem{}{- Design and Modeling of the modules to be developed.}
+\cvitem{}{- Development with a concern for quality and respect of deadlines.}
 \cvitem{}{- Define deployment plans and their implementation.}
 \cvitem{}{- Develop solution management indicators.}
 \cvitem{}{- Coach and lead teams and evaluate individual and collective performance.}
