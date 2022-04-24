@@ -1,0 +1,434 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+\usepackage[scale=.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\usepackage{tikz}
+
+\usepackage{mathptmx}
+\usepackage[11pt]{moresize}
+
+\newcommand{\github}{%
+\begin{tikzpicture}[y=0.80pt, x=0.8pt,yscale=-1, inner sep=0pt, outer sep=0pt,opacity=0.4]
+  \begin{scope}[shift={(506.69823,386.92617)}]
+    \path[fill=black] (116.9933,59.7217) .. controls (116.9933,71.2283) and
+      (107.6655,80.5562) .. (96.1589,80.5562) .. controls (84.6524,80.5562) and
+      (75.3245,71.2283) .. (75.3245,59.7217) .. controls (75.3245,48.2152) and
+      (84.6524,38.8873) .. (96.1589,38.8873) .. controls (107.6654,38.8873) and
+      (116.9933,48.2152) .. (116.9933,59.7217) -- cycle;
+    \path[cm={{0.88462,0.0,0.0,0.88462,(11.09526,6.89097)}},fill=white]
+      (116.9933,59.7217) .. controls (116.9933,71.2283) and (107.6655,80.5562) ..
+      (96.1589,80.5562) .. controls (84.6524,80.5562) and (75.3245,71.2283) ..
+      (75.3245,59.7217) .. controls (75.3245,48.2152) and (84.6524,38.8873) ..
+      (96.1589,38.8873) .. controls (107.6654,38.8873) and (116.9933,48.2152) ..
+      (116.9933,59.7217) -- cycle;
+    \path[fill=black,nonzero rule] (103.4671,45.2878) .. controls (102.9322,45.4374)
+      and (101.2003,46.2576) .. (100.5403,46.6739) -- (100.1099,46.9454) --
+      (99.4882,46.8019) .. controls (99.0810,46.7080) and (98.1204,46.6415) ..
+      (96.7048,46.6094) .. controls (94.4953,46.5593) and (93.4339,46.6361) ..
+      (92.2380,46.9324) -- (91.6450,47.0793) -- (90.9468,46.6426) .. controls
+      (90.0955,46.1101) and (88.7784,45.4948) .. (88.1825,45.3512) .. controls
+      (87.9348,45.2916) and (87.5225,45.2429) .. (87.2643,45.2429) .. controls
+      (86.8530,45.2429) and (86.7816,45.2733) .. (86.6817,45.4916) .. controls
+      (86.3049,46.3144) and (86.1702,48.1697) .. (86.3982,49.3940) --
+      (86.5087,49.9870) -- (86.0485,50.6088) .. controls (85.4184,51.4600) and
+      (84.9876,52.3958) .. (84.8509,53.2104) .. controls (84.6439,54.4443) and
+      (84.8398,57.3849) .. (85.1880,58.2702) .. controls (85.2564,58.4443) and
+      (85.2939,58.4403) .. (81.6976,58.6338) .. controls (79.2203,58.7672) and
+      (77.4880,58.9815) .. (77.2948,59.1788) .. controls (77.1683,59.3080) and
+      (77.2021,59.3161) .. (77.6325,59.2604) .. controls (79.8802,58.9695) and
+      (83.0680,58.7293) .. (84.6818,58.7293) .. controls (85.3322,58.7293) and
+      (85.3437,58.7337) .. (85.4709,59.0402) .. controls (85.5424,59.2123) and
+      (85.5936,59.3574) .. (85.5857,59.3654) .. controls (85.5778,59.3733) and
+      (84.8826,59.4288) .. (84.0409,59.4888) .. controls (82.1375,59.6245) and
+      (80.3024,59.8884) .. (78.6942,60.2577) .. controls (77.5177,60.5279) and
+      (77.1884,60.6573) .. (77.3264,60.7953) .. controls (77.3578,60.8267) and
+      (77.9386,60.7190) .. (78.6081,60.5575) .. controls (80.6932,60.0548) and
+      (83.4463,59.6858) .. (85.1122,59.6858) .. controls (85.7817,59.6858) and
+      (85.8050,59.6938) .. (85.9497,59.9727) .. controls (86.1509,60.3606) and
+      (87.1973,61.4638) .. (87.6756,61.7923) .. controls (88.7575,62.5354) and
+      (90.1146,63.0487) .. (91.7311,63.3262) .. controls (92.3241,63.4280) and
+      (92.8529,63.5117) .. (92.9028,63.5117) .. controls (92.9519,63.5117) and
+      (92.8171,63.7221) .. (92.6084,63.9708) .. controls (92.2151,64.4395) and
+      (91.8427,65.1574) .. (91.8393,65.4534) .. controls (91.8343,65.8877) and
+      (90.1911,66.2247) .. (89.1390,66.0071) .. controls (88.4365,65.8618) and
+      (87.9449,65.5203) .. (87.3370,64.7552) .. controls (86.5997,63.8274) and
+      (86.0013,63.2318) .. (85.6000,63.0268) .. controls (85.1313,62.7874) and
+      (84.1718,62.7744) .. (83.9782,63.0048) .. controls (83.8657,63.1387) and
+      (83.8975,63.1954) .. (84.2322,63.4586) .. controls (85.1908,64.2122) and
+      (85.6680,64.7934) .. (86.1681,65.8169) .. controls (86.7336,66.9742) and
+      (87.2885,67.5731) .. (88.1825,67.9913) .. controls (88.6992,68.2330) and
+      (88.8042,68.2463) .. (90.1911,68.2463) -- (91.6546,68.2463) --
+      (91.6259,70.0923) -- (91.5972,71.9383) -- (91.2050,72.2922) .. controls
+      (90.9850,72.4908) and (90.6785,72.7603) .. (90.5068,72.9061) .. controls
+      (90.0483,73.2955) and (90.1529,73.4104) .. (90.9946,73.4418) .. controls
+      (91.6450,73.4662) and (91.7691,73.4390) .. (92.3241,73.1503) .. controls
+      (93.3630,72.6098) and (93.3667,72.5983) .. (93.3667,69.8628) .. controls
+      (93.3667,67.3377) and (93.4455,66.7059) .. (93.8107,66.3047) --
+      (94.0458,66.0464) -- (93.9980,69.2506) .. controls (93.9695,71.1540) and
+      (93.9075,72.6024) .. (93.8449,72.8183) .. controls (93.7868,73.0192) and
+      (93.6134,73.3252) .. (93.4575,73.5022) .. controls (93.3059,73.6744) and
+      (93.1754,73.9155) .. (93.1754,74.0235) .. controls (93.1754,74.1976) and
+      (93.2328,74.2243) .. (93.6058,74.2243) .. controls (94.3519,74.2243) and
+      (95.3191,73.5586) .. (95.6209,72.8374) .. controls (95.8285,72.3417) and
+      (95.9492,70.6280) .. (95.9492,68.1794) -- (95.9492,65.9029) --
+      (96.4179,65.9029) -- (96.4465,69.1311) .. controls (96.4752,72.3544) and
+      (96.4756,72.3599) .. (96.7144,72.8374) .. controls (97.1209,73.6505) and
+      (98.5189,74.4873) .. (99.0195,74.2173) .. controls (99.2785,74.0776) and
+      (99.2470,73.9374) .. (98.8154,73.3061) .. controls (98.5996,72.9905) and
+      (98.3935,72.5452) .. (98.3372,72.2731) .. controls (98.2088,71.6514) and
+      (98.2544,66.1949) .. (98.3882,66.1752) .. controls (98.4417,66.1673) and
+      (98.5682,66.3047) .. (98.6752,66.4864) .. controls (98.8508,66.7849) and
+      (98.8704,67.0316) .. (98.9143,69.4898) .. controls (98.9477,71.3645) and
+      (98.9985,72.2310) .. (99.0833,72.3783) .. controls (99.2883,72.7344) and
+      (99.9568,73.2398) .. (100.3777,73.3570) .. controls (100.6002,73.4189) and
+      (101.0568,73.4562) .. (101.4011,73.4406) .. controls (102.2046,73.4043) and
+      (102.2524,73.2299) .. (101.5924,72.7428) .. controls (100.6531,72.0496) and
+      (100.6840,72.1775) .. (100.6746,68.9637) .. controls (100.6656,65.9699) and
+      (100.6109,65.4703) .. (100.2007,64.6499) .. controls (100.0812,64.4108) and
+      (99.8134,64.0644) .. (99.5982,63.8704) -- (99.2108,63.5213) --
+      (99.6603,63.4617) .. controls (100.5690,63.3414) and (102.0372,63.0328) ..
+      (102.6446,62.8345) .. controls (104.1654,62.3382) and (105.5084,61.3208) ..
+      (106.1445,60.1832) -- (106.4227,59.6858) -- (106.9679,59.6858) .. controls
+      (108.9956,59.6858) and (112.7503,60.2177) .. (114.7632,60.7901) .. controls
+      (114.9162,60.8337) and (114.9832,60.8090) .. (114.9832,60.7092) .. controls
+      (114.9832,60.3420) and (111.4059,59.7105) .. (108.1061,59.4950) .. controls
+      (107.2931,59.4419) and (106.6181,59.3838) .. (106.5996,59.3654) .. controls
+      (106.5815,59.3473) and (106.6145,59.1932) .. (106.6713,59.0306) --
+      (106.7765,58.7293) -- (107.9817,58.7323) .. controls (109.6496,58.7363) and
+      (111.7789,58.8872) .. (113.5293,59.1252) .. controls (114.8684,59.3073) and
+      (115.2129,59.3130) .. (115.0501,59.1502) .. controls (114.8456,58.9456) and
+      (112.1137,58.6482) .. (109.3399,58.5285) .. controls (108.0008,58.4707) and
+      (106.8944,58.4168) .. (106.8865,58.4089) .. controls (106.8785,58.4010) and
+      (106.9394,58.0694) .. (107.0204,57.6772) .. controls (107.1184,57.2030) and
+      (107.1719,56.3764) .. (107.1782,55.2382) .. controls (107.1862,53.7174) and
+      (107.1624,53.4295) .. (106.9708,52.7704) .. controls (106.6953,51.8235) and
+      (106.3173,51.0734) .. (105.7225,50.2931) -- (105.2557,49.6810) --
+      (105.2940,48.0598) .. controls (105.3295,46.5581) and (105.3160,46.3927) ..
+      (105.1123,45.8168) -- (104.8923,45.1951) -- (104.4140,45.1760) .. controls
+      (104.1462,45.1653) and (103.7296,45.2145) .. (103.4671,45.2879) -- cycle;
+  \end{scope}
+\end{tikzpicture}
+}
+\firstname{Ibrahim} % Your first name
+\familyname{Boukhenna} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+
+\address{Cité Ben Boulaid BT13 N218 Ain Benian}{Alger, Algérie}
+\mobile{+213-698706011}
+\email{boukhenna.ibrahim@gmail.com}
+
+\extrainfo{
+  \httplink{https://github.com/iBoukhenna}\\
+  \httplink{https://www.linkedin.com/in/iBoukhenna}\\
+  \httplink{https://twitter.com/iBoukhenna}
+\homepage{}
+{}}
+
+
+
+%% \github{github.com/KevinDennyII} 
+
+%%\extrainfo{
+%%  \httplink{https://www.codechef.com/users/priyanka_pps}
+%%\homepage{https://github.com/priyankapps/} {https://github.com/priyankapps/}}
+
+
+\begin{document}
+
+\makecvtitle{More than 9 years of experience in the design and development of web and mobile applications (JAVA, Spring, Android), with demonstrated knowledge in several areas (Project management, DevOps, BI, ...).
+Engineering professional with a master's degree in Software Engineering from the University of Sciences and Houari Boumediene Technology (USTHB).}
+
+
+%----------------------------------------------------------------------------------------
+%	Expérience professionnelle SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Expérience professionnelle}
+
+\cventry{Feb'2017--Present}{Study and development team leader}{}{}{}{SPINTECHS (Bir Khadem), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Develop the technical specifications of the solutions developed by the company.}
+\cvitem{}{- Management of the development, maintenance and monitoring of the evolution of the solutions produced.}
+\cvitem{}{- Define the architecture and ensure the quality of the code.}
+\cvitem{}{- Define deployment plans and their implementation.}
+\cvitem{}{- Develop solution management indicators.}
+\cvitem{}{- Coach and lead teams and evaluate individual and collective performance.}
+\cvitem{}{- Develop internal project management procedures.}
+\cvitem{}{- Maintain the development platform.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{JAVA 8, JAVA EE, Restful, Spring boot, PrimeFaces, JavaFx, Hibernate, Angular 8, Docker, Android, Mysql, Oracle, RFID, Proxmox, Linux, NGINX, Tomcat, Jira, Confluence, Git, Bitbucket, Sourcetree, Birt, JasperReport, Postman, Selenium, JMeter, JUnit.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- QIMMOS : Development and implementation of a corporate asset management solution based on Barcode and RFID technologies. The latter is made up of four modules which ensure Fixed Asset Management, Inventory Management, Management of the company's rolling stock and monitoring of maintenance operations. The solution is composed of a web application and a mobile application to ensure inventory operations and census operations.}
+\cvitem{}{- MIP : Implementation of a digital platform for the monitoring of pharmaceutical products, monitoring of import and production programs and their levels of execution, preventing and avoiding shortages, calculation of the national import need.}
+\cvitem{}{- MJS : Implementation of a digital registration platform for the Supreme Youth Council election.}
+\cvitem{}{- BUAA : Implementation of a digital platform for the management of orange cards (extension of the automobile civil liability guarantee to vehicles registered in Algeria when traveling in Arab countries).}
+\cvitem{}{- SMITO : is a solution for electronic reading of biometric cards in two steps, OCR for reading the MRZ and NFC reading of the data after decoding for information retrieval.}
+
+
+\cventry{Jun'2020--Mar'2021}{Development engineer}{}{}{}{FREELANCE (TENASEC), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Task planning and tracking.}
+\cvitem{}{- Design and develop the application.}
+\cvitem{}{- Define deployment plans.}
+\cvitem{}{- Perform unit tests.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{Clean architecture, CQRS, ASP.NET CORE, Entity Framework core, SignalR, Linux, NGINX, RESTful, Swagger, JSON, JWT, C\#, LINQ, MediatR, AutoMapper, MVVM, Xamarin, Angular8, Typescript, RxJS, GIT, Azure DevOps, SVG, Figma, InVision.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- TENASEC : is a solution for automating the process of a dry cleaner.}
+
+
+\cventry{Jan'2020--Jun'2020}{Development engineer}{}{}{}{FREELANCE (BALI GROUP), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Task planning and tracking.}
+\cvitem{}{- Design and develop the application.}
+\cvitem{}{- Define deployment plans.}
+\cvitem{}{- Perform unit tests.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{Clean architecture, CQRS, ASP.NET CORE, Entity Framework core, SignalR, Linux, NGINX, RESTful, Swagger, JSON, JWT, C\#, LINQ, MediatR, AutoMapper, MVVM, Xamarin, Angular 8, Typescript, RxJS, Git, Azure DevOps, Adobe XD.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- ELAFOOD : is a solution for automating the process of marketing and selling sauces.}
+
+
+\cventry{Sep'2016--Sep'2019}{Development engineer}{}{}{}{FREELANCE (CAPTUREDOC), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Task planning and tracking.}
+\cvitem{}{- Define the architecture of the solution.}
+\cvitem{}{- Defining the technical choices and methods to be used.}
+\cvitem{}{- Design and develop the application.}
+\cvitem{}{- Define deployment plans.}
+\cvitem{}{- Perform unit tests.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{PHP, Restful, Postman, Hibernate, Android hybride, CSS, JavaScript, AJAX, JQuery, SOAP/WSDL, Apache, Mysql, Proxmox, Linux, GIT.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- DIGIT : is a solution for the digitization of the chip sales process of the operator OOREDOO.}
+
+
+\cventry{Apr'2016--Jan'2017}{Head of research and development department}{}{}{}{ICOSNET (Cheraga), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Participation in workshops for the drafting of the specifications and the technical specifications of the company's applications.}
+\cvitem{}{- Development and maintenance of applications for company users and internal information systems.}
+\cvitem{}{- Management of external developments and integration of software packages.}
+\cvitem{}{- Define and develop data exchanges between applications.}
+\cvitem{}{- Define qualification plans and test cases.}
+\cvitem{}{- Create technical files of the developed applications.}
+\cvitem{}{- Management of user training.}
+\cvitem{}{- Develop and propose the internal procedures of the department.}
+\cvitem{}{- Coach and animate the development team and evaluate individual and collective performance.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{JAVA 8, JAVA EE, PrimeFaces, PHP, Restful, Postman, Hibernate, Android hybride, CSS, JavaScript, AJAX, JQuery, SOAP/WSDL, Apache, Tomcat, Mysql, Proxmox, Linux, SVN.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- VaziiManager : is an ICOSNET service automation solution, made up of several applications. - VaziiPAY is an electronic payment method that allows you to buy and pay for ICOSNET products and services online in complete security. - VaziiPDV is a platform for identifying, purchasing and recharging ICOSNET products and services for resellers. Composed of a web application and a mobile application. - Vazii Commercial is a platform for salespeople for managing points of sale. - Vazii Admin is an administration interface.}
+
+\cventry{Sep'2015--Mar'2016}{Business intelligence engineer}{}{}{}{ICOSNET (Cheraga), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Translate business needs into technical specifications.}
+\cvitem{}{- Analyze, design, build and deploy BI solutions.}
+\cvitem{}{- Create tools to store data.}
+\cvitem{}{- Maintain data analysis platforms.}
+\cvitem{}{- Assess and improve existing BI systems.}
+\cvitem{}{- Create visualizations and reports for requested projects.}
+\cvitem{}{- Perform unit testing and troubleshooting.}
+\cvitem{}{- Planning and tracking project tasks.}
+\cvitem{}{- Develop and update technical documentation.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{SQL Serveur, SSIS, SSAS, SSRS, C\#, Ms-Project.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- Realization of reports and dashboards for monitoring and decision support with the information available within the company's databases to have visibility on an activity and understanding of customer behavior.}
+
+\cventry{Sep'2012--Out'2015}{Research and development engineer}{}{}{}{ICOSNET (Cheraga), Algiers, Algeria}  % Arguments not required can be left empty
+\cvitem{}{\textbf{Missions:}}
+\cvitem{}{- Development and consumption of web services.}
+\cvitem{}{- Design and Modeling of the modules to be developed.}
+\cvitem{}{- Development with a concern for quality and respect of deadlines.}
+\cvitem{}{- Development of new features.}
+\cvitem{}{- Maintain existing and fix bugs.}
+\cvitem{}{- Planning and tracking project tasks.}
+\cvitem{}{\textbf{Technologies and tools used:}}
+\cvitem{}{JAVA 7, JAVA EE, JavaScript, AJAX, JQuery, Restfull, SOAP/WSDL, MySql, SVN, Tomcat, Glassfish, USSD, SIP, WebRTC, Ms-Project.}
+\cvitem{}{\textbf{Projects:}}
+\cvitem{}{- Vazii : is a cross-platform instant messaging software for smartphones, tablets and computers that allows text messages and files to be exchanged over the Internet, as well as audio and video calls using voice over IP technology.}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2007--2012}{Master’s in Computer Software Engineering}{}{}{}{Université des Sciences et de la Technologie Houari Boumediene (USTHB), Alger, Algérie}  % Arguments not required can be left empty
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+%---\section{Experience}
+
+
+%--\cventry{June'18--Present}{Intern}{}{}{}{Indian Institute of Technology, Delhi\\
+%--\textbf{Objective}: To create the official website for their Makerspace Lab facility\\
+%---\textbf{Group Size}: 6\\
+ %--To create a website for Makerspace  Lab which helps student in scheduling tools of the facility and giving tutorial on how to use them. It will also tell the student about who are trained in any particular tool.  \\}
+
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+\renewcommand{\listitemsymbol}{-~}
+{\small
+\cvitem{Web development}{JAVA, JAVA EE, Spring boot, Hibernate, Primefaces, RESTful, SOAP, HTML, Javascript, CSS, XML, JSON, Angular}
+\cvitem{Mobile development}{Android SDK, AndroidX, Xamarin, Retrofit, MVVM}
+\cvitem{Databases}{MySQL, SQL Server, Postgresql}
+\cvitem{DevOps tools}{Docker, Packer, Kubernetes, Terraform, Git, SVN, Jira, Jenkins}
+\cvitem{Operating systems}{Linux, Windows}
+\cvitem{tools}{Android Studio, IntelliJ, Postman, JMeter, Selenium, JUnit, Birt, JasperReport, WinScp, Figma, AdobeXD}
+\par}
+
+%----------------------------------------------------------------------------------------
+%	Masters SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\cvitem{}{\textbf{- Français : } Fluent}
+\cvitem{}{\textbf{- Arabe : } Native}
+\cvitem{}{\textbf{- Anglais : } Intermediate}
+
+%------------------------------------------------
+
+
+%\section{Major Courses Undertaken}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%{\small
+%\cvitem{Computer Science}{ Computer Graphics and Multimedia, Artificial Intelligence, Design and Analysis of Algorithms, Theory of Computation, Operating Systems, Programming Languages, Database Management System, Computer Architecture, Discrete Mathematics, Data Structures.
+%}
+
+%\cvitem{Mathematics}{ Statistical Methods, Probability, Differential Calculus, Linear Algebra, Matrix Theory, Complex Analysis, Vector Calculus.
+%}
+%\par}
+
+%----------------------------------------------------------------------------------------
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formations et compétitions}
+{\small
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{1}{\textbf {Cloud DevOps using Microsoft Azure}, UDACITY - Software engineering, Jun'2021 [https://confirm.udacity.com/XDD6SPHD]}
+\cvitem{2}{\textbf {PROJECT MANAGEMENT}, UNOW - Centrale Lille, Nov'2015 [http://certification.unow-mooc.org/GdP6/a6090628.pdf]}
+\cvitem{3}{\textbf {10777A - Implementing a Data Warehouse with Microsoft® SQL Server® 2012}, IT SOLUTIONS - Business Intelligence, Sep'2015}
+\cvitem{4}{\textbf {6235A - Implementing and Maintaining Microsoft® SQL Server® 2008 Integration Services}, IT SOLUTIONS - Business Intelligence, Sep'2015}
+\cvitem{5}{\textbf {6234A - Implementing and Maintaining Microsoft® SQL Server® 2008 Analysis Services}, IT SOLUTIONS - Business Intelligence, Sep'2015}
+\cvitem{6}{\textbf {10266A - Developing Microsoft® Programming in C\# with Microsoft® Visual Studio© 2010}, COGITAR - .NET, Nov'2014}
+\cvitem{7}{\textbf {10263A - Developing Microsoft® Windows Communication Foundation Solutions with Microsoft® Visual Studio© 2010}, COGITAR - .NET, Nov'2014}
+\cvitem{8}{\textbf {Introduction to Object Oriented Programming (in Java)}, COURSERA - École polytechnique fédérale de Lausanne, Oct'2014}
+\cvitem{9}{\textbf {Introduction to programming (in Java)}, COURSERA - École polytechnique fédérale de Lausanne, Oct'2014}
+\cvitem{10}{\textbf {SIP: Study and implementation}, NEXCOM SYSTEMS - VOIP, Jun'2014}
+\cvitem{11}{\textbf {WebRTC : Telephony in the web browser}, NEXCOM SYSTEMS - VOIP, Jun'2014}
+
+\par}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\cvitemwithcomment{Spanish}{Basic}{}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+% \cvlistdoubleitem{Piano}{}
+% \cvlistitem{Baseball}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
