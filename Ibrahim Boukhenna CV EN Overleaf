@@ -150,7 +150,7 @@
 % All information in this block is optional, comment out any lines you don't need
 
 
-\address{Cité Ben Boulaid BT13 N218 Ain Benian}{Alger, Algérie}
+\address{City Ben Boulaid B13 N218 Ain Benian}{Algiers, Algeria}
 \mobile{+213-698706011}
 \email{boukhenna.ibrahim@gmail.com}
 
@@ -180,7 +180,7 @@ Engineering professional with a master's degree in Software Engineering from the
 %	Expérience professionnelle SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Expérience professionnelle}
+\section{Work Experience}
 
 \cventry{Feb'2017--Present}{Research and development team leader}{}{}{}{SPINTECHS (Bir Khadem), Algiers, Algeria}  % Arguments not required can be left empty
 \cvitem{}{\textbf{Missions:}}
@@ -340,7 +340,7 @@ Engineering professional with a master's degree in Software Engineering from the
 \section{Languages}
 \cvitem{}{\textbf{- Français : } Fluent}
 \cvitem{}{\textbf{- Arabe : } Native}
-\cvitem{}{\textbf{- Anglais : } Intermediate}
+\cvitem{}{\textbf{- Anglais : } Professional Proficiency}
 
 %------------------------------------------------
 
@@ -360,7 +360,7 @@ Engineering professional with a master's degree in Software Engineering from the
 %	Coursework SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Formations et compétitions}
+\section{Certificates and Licenses}
 {\small
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
