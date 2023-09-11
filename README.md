@@ -1,5 +1,5 @@
-- 👋 Hi, I’m Ibrahim Boukhenna
-- 👀 I’m interested in Software Architecture
-- 🌱 I’m currently learning a DevOps Tools
-- 💞️ I’m looking to collaborate on Intelligence Artificielle projects
-- 📫 How to reach me : https://www.linkedin.com/in/boukhenna/
+👋 Hi, I'm Ibrahim Boukhenna, a Software Engineer.
+👀 I'm interested in Software Architecture.
+🌱 I'm currently learning Artificial Intelligence.
+💞️ I'm looking to collaborate on Artificial Intelligence projects.
+📫 You can reach me here: https://www.linkedin.com/in/boukhenna/
